@@ -19,9 +19,7 @@ Ecovision is built to help high school students understand complex environmental
 - **Data Sources**: APIs providing Earth observation and satellite imagery data
 - **Version Control**: Git and GitHub
 
-## Installation
 
-1. Clone the repository:
+ Clone the repository:
    ```bash
    git clone https://github.com/sahaniaman/ecovision.git
-   cd ecovision
