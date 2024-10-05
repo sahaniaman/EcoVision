@@ -4,7 +4,7 @@ import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBS-rdNGv_kWe_rLuh53ItilMw-cwvTD6o",
+    apiKey: "///////// getting alert thatswhy i have removed the api key",
     authDomain: "ecovision-44f3e.firebaseapp.com",
     projectId: "ecovision-44f3e",
     storageBucket: "ecovision-44f3e.appspot.com",
