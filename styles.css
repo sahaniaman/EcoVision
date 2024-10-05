@@ -1,0 +1,156 @@
+/* General Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+
+/* Sidebar Styling */
+
+.sidebar {
+    background-color: #2C2C47;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+nav ul li.active,
+nav ul li:hover {
+    background-color: #43437A;
+}
+
+.support {
+    width: 150px;
+    height: 150px;
+    background: #d8d8d8;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.support h4 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #FF8C00;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff7000;
+}
+
+
+/* Main Content Styling */
+
+.main-content {
+    margin-left: 30px;
+    flex: 1;
+    padding: 20px;
+    background-color: #F5F5F7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 800px;
+    background: #d8d8d8;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+}
+
+.profile-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+/* SDG Section Styling */
+
+.sdg-selection {
+    margin-top: 20px;
+}
+
+.sdg-selection h2 {
+    margin-bottom: 20px;
+}
+
+.sdg-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.sdg-card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.sdg-card:hover {
+    transform: translateY(-5px);
+}
+
+.sdg-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sdg-card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}

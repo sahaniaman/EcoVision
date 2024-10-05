@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVision Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <script type="module" src="Script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <h1 class="logo">EcoVision</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" class="login-btn">LOGIN</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Sign Up Form Section -->
+        <div class="form-section">
+
+            <div class="form-container">
+                <h2>Sign Up</h2>
+                <!-- Success Message Box -->
+                <div id="success-message" style="display:none; padding: 10px; background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; margin-bottom: 15px;">
+                    Successfully signed up! Redirecting to the login page...
+                </div>
+                <form>
+                    <div class="name-fields">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Surname">
+                    </div>
+                    <input type="email" placeholder="Email address">
+                    <input type="password" placeholder="Password">
+                    <div class="form-buttons">
+                        <button type="button" class="back-btn">BACK</button>
+                        <button type="submit" class="next-btn">NEXT</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
